@@ -1,0 +1,16 @@
+torch>=2.7.1
+transformers>=4.55.0
+accelerate>=0.20.0
+datasets>=2.0.0
+numpy>=1.21.0
+pandas>=2.0.0
+tqdm>=4.64.0
+sentencepiece>=0.2.1
+# alternate sklearn k-means path in pq_utils
+scikit-learn>=1.0.0
+# LongBench metrics (jieba/fuzzywuzzy only for the *_zh subsets)
+rouge>=1.0.0
+jieba>=0.42.0
+fuzzywuzzy>=0.18.0
+# tests
+pytest>=8.0.0
